@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+
+}
+body{
+    background-color: #f9f4e8;
+}
+.noti{
+    transition: 0.5s;
+}
+.noti:hover{
+    transform: scale(0.89);
+    transition: 0.5s;
+}
+
+.img-one{
+    position: absolute;
+    transform: rotate(-45deg);
+}
+.img-two{
+    position: absolute;
+    transform: rotate(-32deg);
+}
+.img-three{
+    position: absolute;
+    transform: rotate(-15deg);
+}
+.img-four{
+    position: relative;
+    transition: 0.5s;
+}
+
+.img-group img:hover{
+    transform: rotate(0deg);
+    transform: scale(0.89);
+    transition: 0.5s;    
+}
+
+.help-man{
+    width: 50px;
+    height: auto;
+    transition: 0.5s;
+}
+.help-man:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:1024px) {
+    .body-section{
+        flex-flow: column-reverse;
+    }
+
+    .email{
+        width: 100% !important;
+    }
+}
